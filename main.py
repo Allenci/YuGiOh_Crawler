@@ -39,7 +39,7 @@ def set_download_dir(name):
 
 
 def get_download_dir_name():
-    return "D:/ggggg/yugioh_download_images"
+    return "D:/yugioh_download_images"
 
 
 def trim(card):
@@ -56,7 +56,7 @@ def remove_slash(card):
 
 def download():
 
-    page_from = 627
+    page_from = 1
     page_to = 993
 
     domain = get_domain()
